@@ -26,11 +26,6 @@ console.log(addBorder(["abc", "ded"]));
 
 
 
-
-
-
-
-
 function addBorder2(picture: string[]): any {
     const wall = '+'.repeat(picture[0].length + 2);
 
